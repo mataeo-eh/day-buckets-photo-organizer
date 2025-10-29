@@ -1,7 +1,15 @@
-*pycache*
-*GPT.py 
-*.venv
-*PROJECT
-*PROJECT1
-*ENV*
-*DS_Store*
+__pycache__/
+*.pyc
+.venv/
+
+# Generated working directories
+PROJECT/
+PROJECT1/
+logs/
+reports/
+
+# Local environment helpers
+ENV/__pycache__/
+
+# OS cruft
+.DS_Store
